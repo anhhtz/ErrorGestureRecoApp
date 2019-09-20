@@ -39,12 +39,36 @@ class GettingStartedViewController: UIViewController {
             m.top.equalTo(contentView.snp.top).offset(10)
             m.leading.equalTo(contentView.snp.leading).offset(10)
             m.trailing.equalTo(contentView.snp.trailing).offset(-10)
+//            m.bottom.equalTo(contentView.snp.bottom)
         }
         
-        emptyQuizView.contentLabel.addTapGestureRecognizer {
+        emptyQuizView.actionLabel.addTapGestureRecognizer {
             print("tapped !")
             print(emptyQuizView.contentView.frame.size.height)
         }
+        
+        let emptyQuizView1 = EmptyQuizView(frame: .zero)
+        emptyQuizView1.icon = UIImage(named: "rank")
+        emptyQuizView1.headerTitle = "Kết quả trắc nghiệm của bạn"
+        emptyQuizView1.translatesAutoresizingMaskIntoConstraints = false
+
+        self.contentView.addSubview(emptyQuizView1)
+
+        emptyQuizView1.snp.makeConstraints { (m) in
+            m.top.equalTo(emptyQuizView.snp.bottom).offset(10)
+            m.leading.equalTo(contentView.snp.leading).offset(10)
+            m.trailing.equalTo(contentView.snp.trailing).offset(-10)
+            m.bottom.equalTo(contentView.snp.bottom)
+        }
+
+        emptyQuizView1.contentLabel.addTapGestureRecognizer {
+            print("tapped !")
+            print(emptyQuizView1.contentView.frame.size.height)
+        }
+        
+//        contentView.snp.makeConstraints { (m) in
+//            m.bottom.equalTo(emptyQuizView1.snp.bottom).offset(-20)
+//        }
         
 //        emptyQuizView.buttonAction = { [weak self] in
 //            let mainViewController = MainViewController()
