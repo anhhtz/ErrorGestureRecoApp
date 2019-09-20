@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0F1E5CF423345A9E00AC303B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5CF323345A9E00AC303B /* AppDelegate.swift */; };
-		0F1E5CF623345A9E00AC303B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5CF523345A9E00AC303B /* ViewController.swift */; };
 		0F1E5CF923345A9E00AC303B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E5CF723345A9E00AC303B /* Main.storyboard */; };
 		0F1E5CFB23345A9F00AC303B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E5CFA23345A9F00AC303B /* Assets.xcassets */; };
 		0F1E5CFE23345A9F00AC303B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E5CFC23345A9F00AC303B /* LaunchScreen.storyboard */; };
+		0F1E5D0723345B6000AC303B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0623345B6000AC303B /* UIViewExtension.swift */; };
+		0F1E5D0B23345B8A00AC303B /* EmptyQuizView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0923345B8A00AC303B /* EmptyQuizView.xib */; };
+		0F1E5D0C23345B8A00AC303B /* EmptyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0A23345B8A00AC303B /* EmptyQuizView.swift */; };
+		0F1E5D0E23345BE200AC303B /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0D23345BE200AC303B /* GettingStartedViewController.swift */; };
+		0F1E5D1023345EB500AC303B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0F23345EB500AC303B /* AppConstants.swift */; };
+		201EF5A82418B6EA873599C6 /* Pods_ErrorGestureRecoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE8A62F0B99187124A77501 /* Pods_ErrorGestureRecoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F1E5CF023345A9E00AC303B /* ErrorGestureRecoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErrorGestureRecoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1E5CF323345A9E00AC303B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F1E5CF523345A9E00AC303B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F1E5CF823345A9E00AC303B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F1E5CFA23345A9F00AC303B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F1E5CFD23345A9F00AC303B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F1E5CFF23345A9F00AC303B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1E5D0623345B6000AC303B /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0F1E5D0923345B8A00AC303B /* EmptyQuizView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmptyQuizView.xib; sourceTree = "<group>"; };
+		0F1E5D0A23345B8A00AC303B /* EmptyQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyQuizView.swift; sourceTree = "<group>"; };
+		0F1E5D0D23345BE200AC303B /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
+		0F1E5D0F23345EB500AC303B /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		373AC53DF37E34122E33E86E /* Pods-ErrorGestureRecoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErrorGestureRecoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A77CB2B6119691216D04D95 /* Pods-ErrorGestureRecoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErrorGestureRecoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE8A62F0B99187124A77501 /* Pods_ErrorGestureRecoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErrorGestureRecoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201EF5A82418B6EA873599C6 /* Pods_ErrorGestureRecoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				0F1E5CF223345A9E00AC303B /* ErrorGestureRecoApp */,
 				0F1E5CF123345A9E00AC303B /* Products */,
+				5F35BA57A605AD9AB056B8FE /* Pods */,
+				B337A5470DF1DE1FABF11528 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +69,51 @@
 		0F1E5CF223345A9E00AC303B /* ErrorGestureRecoApp */ = {
 			isa = PBXGroup;
 			children = (
+				0F1E5D0823345B7900AC303B /* Views */,
+				0F1E5D0523345B4800AC303B /* Libs */,
 				0F1E5CF323345A9E00AC303B /* AppDelegate.swift */,
-				0F1E5CF523345A9E00AC303B /* ViewController.swift */,
+				0F1E5D0D23345BE200AC303B /* GettingStartedViewController.swift */,
 				0F1E5CF723345A9E00AC303B /* Main.storyboard */,
 				0F1E5CFA23345A9F00AC303B /* Assets.xcassets */,
 				0F1E5CFC23345A9F00AC303B /* LaunchScreen.storyboard */,
 				0F1E5CFF23345A9F00AC303B /* Info.plist */,
 			);
 			path = ErrorGestureRecoApp;
+			sourceTree = "<group>";
+		};
+		0F1E5D0523345B4800AC303B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				0F1E5D0F23345EB500AC303B /* AppConstants.swift */,
+				0F1E5D0623345B6000AC303B /* UIViewExtension.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		0F1E5D0823345B7900AC303B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F1E5D0A23345B8A00AC303B /* EmptyQuizView.swift */,
+				0F1E5D0923345B8A00AC303B /* EmptyQuizView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F35BA57A605AD9AB056B8FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A77CB2B6119691216D04D95 /* Pods-ErrorGestureRecoApp.debug.xcconfig */,
+				373AC53DF37E34122E33E86E /* Pods-ErrorGestureRecoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B337A5470DF1DE1FABF11528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8A62F0B99187124A77501 /* Pods_ErrorGestureRecoApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F1E5D0223345A9F00AC303B /* Build configuration list for PBXNativeTarget "ErrorGestureRecoApp" */;
 			buildPhases = (
+				C357837C1EF75C97981B8CA0 /* [CP] Check Pods Manifest.lock */,
 				0F1E5CEC23345A9E00AC303B /* Sources */,
 				0F1E5CED23345A9E00AC303B /* Frameworks */,
 				0F1E5CEE23345A9E00AC303B /* Resources */,
+				069860ABFED3EBB57420C322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1E5CFE23345A9F00AC303B /* LaunchScreen.storyboard in Resources */,
+				0F1E5D0B23345B8A00AC303B /* EmptyQuizView.xib in Resources */,
 				0F1E5CFB23345A9F00AC303B /* Assets.xcassets in Resources */,
 				0F1E5CF923345A9E00AC303B /* Main.storyboard in Resources */,
 			);
@@ -130,13 +185,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		069860ABFED3EBB57420C322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C357837C1EF75C97981B8CA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ErrorGestureRecoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F1E5CEC23345A9E00AC303B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F1E5CF623345A9E00AC303B /* ViewController.swift in Sources */,
+				0F1E5D0723345B6000AC303B /* UIViewExtension.swift in Sources */,
+				0F1E5D0C23345B8A00AC303B /* EmptyQuizView.swift in Sources */,
+				0F1E5D0E23345BE200AC303B /* GettingStartedViewController.swift in Sources */,
 				0F1E5CF423345A9E00AC303B /* AppDelegate.swift in Sources */,
+				0F1E5D1023345EB500AC303B /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +385,45 @@
 		};
 		0F1E5D0323345A9F00AC303B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A77CB2B6119691216D04D95 /* Pods-ErrorGestureRecoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFC3FT53JC;
 				INFOPLIST_FILE = ErrorGestureRecoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appoda.ErrorGestureRecoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0F1E5D0423345A9F00AC303B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373AC53DF37E34122E33E86E /* Pods-ErrorGestureRecoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WFC3FT53JC;
 				INFOPLIST_FILE = ErrorGestureRecoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appoda.ErrorGestureRecoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
