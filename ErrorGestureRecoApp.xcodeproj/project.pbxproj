@@ -16,6 +16,7 @@
 		0F1E5D0C23345B8A00AC303B /* EmptyQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0A23345B8A00AC303B /* EmptyQuizView.swift */; };
 		0F1E5D0E23345BE200AC303B /* GettingStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0D23345BE200AC303B /* GettingStartedViewController.swift */; };
 		0F1E5D1023345EB500AC303B /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E5D0F23345EB500AC303B /* AppConstants.swift */; };
+		0F2D8C2023375A1D00D10DFE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D8C1F23375A1D00D10DFE /* MainViewController.swift */; };
 		201EF5A82418B6EA873599C6 /* Pods_ErrorGestureRecoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE8A62F0B99187124A77501 /* Pods_ErrorGestureRecoApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		0F1E5D0A23345B8A00AC303B /* EmptyQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyQuizView.swift; sourceTree = "<group>"; };
 		0F1E5D0D23345BE200AC303B /* GettingStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GettingStartedViewController.swift; sourceTree = "<group>"; };
 		0F1E5D0F23345EB500AC303B /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		0F2D8C1F23375A1D00D10DFE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		373AC53DF37E34122E33E86E /* Pods-ErrorGestureRecoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErrorGestureRecoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp.release.xcconfig"; sourceTree = "<group>"; };
 		8A77CB2B6119691216D04D95 /* Pods-ErrorGestureRecoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErrorGestureRecoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ErrorGestureRecoApp/Pods-ErrorGestureRecoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		DAE8A62F0B99187124A77501 /* Pods_ErrorGestureRecoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErrorGestureRecoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				0F1E5CFA23345A9F00AC303B /* Assets.xcassets */,
 				0F1E5CFC23345A9F00AC303B /* LaunchScreen.storyboard */,
 				0F1E5CFF23345A9F00AC303B /* Info.plist */,
+				0F2D8C1F23375A1D00D10DFE /* MainViewController.swift */,
 			);
 			path = ErrorGestureRecoApp;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				0F1E5D0723345B6000AC303B /* UIViewExtension.swift in Sources */,
 				0F1E5D0C23345B8A00AC303B /* EmptyQuizView.swift in Sources */,
 				0F1E5D0E23345BE200AC303B /* GettingStartedViewController.swift in Sources */,
+				0F2D8C2023375A1D00D10DFE /* MainViewController.swift in Sources */,
 				0F1E5CF423345A9E00AC303B /* AppDelegate.swift in Sources */,
 				0F1E5D1023345EB500AC303B /* AppConstants.swift in Sources */,
 			);
