@@ -15,7 +15,8 @@ class EmptyQuizView: UIView {
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var contentLabel: UILabel!
-    @IBOutlet weak var actionButton: UIButton!
+    @IBOutlet weak var actionLabel: UILabel!
+    //    @IBOutlet weak var actionButton: UIButton!
     
     
     public var headerTitleSize: CGFloat = 12
@@ -100,13 +101,13 @@ class EmptyQuizView: UIView {
         self.contentLabel.translatesAutoresizingMaskIntoConstraints = false
         
         //=== actionLabel
-//        self.actionLabel.font = UIFont(name: AppFonts.AVENIR_NEXT_DEMI_BOLD, size: 15)
-//        self.actionLabel.numberOfLines = 1
-//        self.actionLabel.sizeToFit()
-//        self.actionLabel.layer.cornerRadius = 5
-//        self.actionLabel.clipsToBounds = true
-//        self.actionLabel.translatesAutoresizingMaskIntoConstraints = false
-//        
+        self.actionLabel.font = UIFont(name: AppFonts.AVENIR_NEXT_DEMI_BOLD, size: 15)
+        self.actionLabel.numberOfLines = 1
+        self.actionLabel.sizeToFit()
+        self.actionLabel.layer.cornerRadius = 5
+        self.actionLabel.clipsToBounds = true
+        self.actionLabel.translatesAutoresizingMaskIntoConstraints = false
+//
 //        self.contentView.bringSubview(toFront: actionLabel)
         // update constraints
         self.layoutIfNeeded()

@@ -42,7 +42,8 @@ class GettingStartedViewController: UIViewController {
 //            m.bottom.equalTo(contentView.snp.bottom)
         }
         
-        emptyQuizView.actionButton.addTapGestureRecognizer {
+//        emptyQuizView.actionButton.addTapGestureRecognizer {
+        emptyQuizView.actionLabel.addTapGestureRecognizer {
             let vc = MainViewController()
             self.navigationController?.pushViewController(vc, animated: true)
 //            print("tapped !")
